@@ -1,0 +1,74 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.25rem;
+    background-color: cyan;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#firstPhoto {
+    width: 600px;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+#keyboard {
+    width: 600px;
+    text-align: center;
+}
+
+#answer {
+    text-align: center;
+}
+
+.btn-info {
+    width: 80px;
+    background-color: yellow;
+    border-radius: 5px;
+    border: 3px solid orange;
+    font-size: 1.25rem;
+    margin-top: 0.75rem;
+}
+
+.btn:hover{
+    box-shadow: 0 0 50px yellow;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.buttons {
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 2px solid orange;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.buttons:hover {
+    box-shadow: 0 0 25px yellow;
+}
